@@ -5,13 +5,13 @@
         "cardconnect",
         "cardpointe"
     ],
-    "homepage": "https://github.com/Dewbud/CardConnect",
+    "homepage": "https://github.com/ciegate/CardConnect",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Dewbud",
-            "email": "jalfonso1134@gmail.com"
+            "name": "Ciegate Technologies Global, Inc.",
+            "email": "support@ciegate.com"
         },
         {
             "name": "Contributors",
@@ -35,7 +35,7 @@
         }
     },
     "require": {
-        "php": "^8.1.8",
+        "php": "^7.3|^8.0",
         "ext-json": "*",
         "guzzlehttp/guzzle": "^6.5|^7.0"
     },
