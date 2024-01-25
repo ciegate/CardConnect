@@ -2,13 +2,13 @@
 
 namespace Tests\Feature;
 
-use Dewbud\CardConnect\CardPointe;
-use Dewbud\CardConnect\Requests\AuthorizationRequest;
-use Dewbud\CardConnect\Responses\AuthorizationResponse;
-use Dewbud\CardConnect\Responses\CaptureResponse;
-use Dewbud\CardConnect\Responses\InquireResponse;
-use Dewbud\CardConnect\Responses\SettlementTransaction;
-use Dewbud\CardConnect\Responses\VoidResponse;
+use Ciegate\CardConnect\CardPointe;
+use Ciegate\CardConnect\Requests\AuthorizationRequest;
+use Ciegate\CardConnect\Responses\AuthorizationResponse;
+use Ciegate\CardConnect\Responses\CaptureResponse;
+use Ciegate\CardConnect\Responses\InquireResponse;
+use Ciegate\CardConnect\Responses\SettlementTransaction;
+use Ciegate\CardConnect\Responses\VoidResponse;
 use PHPUnit\Framework\TestCase;
 
 class CardPointeTest extends TestCase
@@ -19,7 +19,7 @@ class CardPointeTest extends TestCase
     const SERVER   = 'https://fts-uat.cardconnect.com/';
 
     /**
-     * @var \Dewbud\CardConnect\CardPointe
+     * @var \Ciegate\CardConnect\CardPointe
      */
     private $client;
 

@@ -2,8 +2,8 @@
 
 namespace Ciegate\CardConnect\Responses;
 
-use Dewbud\CardConnect\Responses\Traits\ChecksSuccess;
-use Dewbud\CardConnect\Responses\Traits\ConvertsNumbers;
+use Ciegate\CardConnect\Responses\Traits\ChecksSuccess;
+use Ciegate\CardConnect\Responses\Traits\ConvertsNumbers;
 
 class Response extends Fluent
 {

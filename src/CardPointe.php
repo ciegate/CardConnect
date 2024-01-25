@@ -2,15 +2,15 @@
 
 namespace Ciegate\CardConnect;
 
-use Dewbud\CardConnect\Exceptions\CardConnectException;
-use Dewbud\CardConnect\Requests\AuthorizationRequest;
-use Dewbud\CardConnect\Responses\AuthorizationResponse;
-use Dewbud\CardConnect\Responses\CaptureResponse;
-use Dewbud\CardConnect\Responses\InquireResponse;
-use Dewbud\CardConnect\Responses\RefundResponse;
-use Dewbud\CardConnect\Responses\Response;
-use Dewbud\CardConnect\Responses\SettlementResponse;
-use Dewbud\CardConnect\Responses\VoidResponse;
+use Ciegate\CardConnect\Exceptions\CardConnectException;
+use Ciegate\CardConnect\Requests\AuthorizationRequest;
+use Ciegate\CardConnect\Responses\AuthorizationResponse;
+use Ciegate\CardConnect\Responses\CaptureResponse;
+use Ciegate\CardConnect\Responses\InquireResponse;
+use Ciegate\CardConnect\Responses\RefundResponse;
+use Ciegate\CardConnect\Responses\Response;
+use Ciegate\CardConnect\Responses\SettlementResponse;
+use Ciegate\CardConnect\Responses\VoidResponse;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Psr7\Response as GuzzleResponse;
@@ -137,7 +137,7 @@ class CardPointe
     /**
      * Get status of a transaction.
      *
-     * @return \Dewbud\CardConnect\Responses\Response
+     * @return \Ciegate\CardConnect\Responses\Response
      */
     public function inquireMerchant()
     {
@@ -155,7 +155,7 @@ class CardPointe
     /**
      * Authorize a transaction.
      *
-     * @return \Dewbud\CardConnect\Responses\AuthorizationResponse|\Dewbud\CardConnect\Responses\CaptureResponse
+     * @return \Ciegate\CardConnect\Responses\AuthorizationResponse|\Ciegate\CardConnect\Responses\CaptureResponse
      */
     public function authorize(AuthorizationRequest $request)
     {
@@ -183,7 +183,7 @@ class CardPointe
      * @param string $retref  transaction id
      * @param array  $request request parameters
      *
-     * @return \Dewbud\CardConnect\Responses\CaptureResponse
+     * @return \Ciegate\CardConnect\Responses\CaptureResponse
      */
     public function capture(string $retref, $request = [])
     {
@@ -207,7 +207,7 @@ class CardPointe
      * @param string $retref  transaction id
      * @param array  $request request parameters
      *
-     * @return \Dewbud\CardConnect\Responses\VoidResponse
+     * @return \Ciegate\CardConnect\Responses\VoidResponse
      */
     public function void(string $retref, $request = [])
     {
@@ -230,7 +230,7 @@ class CardPointe
      *
      * @param array $request request parameters
      *
-     * @return \Dewbud\CardConnect\Responses\RefundResponse
+     * @return \Ciegate\CardConnect\Responses\RefundResponse
      */
     public function refund($request = [])
     {
@@ -252,7 +252,7 @@ class CardPointe
      *
      * @param array $retref transaction id
      *
-     * @return \Dewbud\CardConnect\Responses\InquireResponse
+     * @return \Ciegate\CardConnect\Responses\InquireResponse
      */
     public function inquire(string $retref)
     {

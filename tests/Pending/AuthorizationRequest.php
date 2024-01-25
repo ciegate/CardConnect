@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use Dewbud\CardConnect\CardPointe;
+use Ciegate\CardConnect\CardPointe;
 use PHPUnit\Framework\TestCase;
 
 class AuthorizationRequest extends TestCase
@@ -13,7 +13,7 @@ class AuthorizationRequest extends TestCase
     const SERVER   = 'https://fts-uat.cardconnect.com/';
 
     /**
-     * @var \Dewbud\CardConnect\CardPointe
+     * @var \Ciegate\CardConnect\CardPointe
      */
     private $client;
 
