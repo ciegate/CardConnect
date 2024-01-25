@@ -15,7 +15,7 @@
         },
         {
             "name": "Contributors",
-            "homepage": "https://github.com/Dewbud/CardConnect/contributors"
+            "homepage": "https://github.com/Ciegate/CardConnect/contributors"
         }
     ],
     "scripts": {
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Dewbud\\CardConnect\\": "src/"
+            "Ciegate\\CardConnect\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dewbud\\CardConnect\\Tests\\": "tests/"
+            "Ciegate\\CardConnect\\Tests\\": "tests/"
         }
     },
     "require": {
