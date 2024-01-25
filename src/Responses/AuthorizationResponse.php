@@ -1,6 +1,6 @@
 <?php
 
-namespace Dewbud\CardConnect\Responses;
+namespace Ciegate\CardConnect\Responses;
 
 class AuthorizationResponse extends Response
 {

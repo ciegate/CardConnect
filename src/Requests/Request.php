@@ -1,6 +1,6 @@
 <?php
 
-namespace Dewbud\CardConnect\Requests;
+namespace Ciegate\CardConnect\Requests;
 
 use Dewbud\CardConnect\Fluent;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dewbud\CardConnect;
+namespace Ciegate\CardConnect;
 
 use ArrayAccess;
 use JsonSerializable;

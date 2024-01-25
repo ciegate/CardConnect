@@ -1,6 +1,6 @@
 <?php
 
-namespace Dewbud\CardConnect\Exceptions;
+namespace Ciegate\CardConnect\Exceptions;
 
 class CardConnectException extends \Exception
 {

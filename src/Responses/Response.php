@@ -1,6 +1,6 @@
 <?php
 
-namespace Dewbud\CardConnect\Responses;
+namespace Ciegate\CardConnect\Responses;
 
 use Dewbud\CardConnect\Responses\Traits\ChecksSuccess;
 use Dewbud\CardConnect\Responses\Traits\ConvertsNumbers;

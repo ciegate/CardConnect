@@ -1,6 +1,6 @@
 <?php
 
-namespace Dewbud\CardConnect;
+namespace Ciegate\CardConnect;
 
 use Dewbud\CardConnect\Exceptions\CardConnectException;
 use Dewbud\CardConnect\Requests\AuthorizationRequest;

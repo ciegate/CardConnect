@@ -1,6 +1,6 @@
 <?php
 
-namespace Dewbud\CardConnect\Responses\Traits;
+namespace Ciegate\CardConnect\Responses\Traits;
 
 trait ConvertsNumbers
 {
