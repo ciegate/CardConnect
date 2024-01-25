@@ -1,6 +1,6 @@
 <?php
 
-namespace Ciegate\CardConnect;
+namespace Ciegate\CardConnect\Responses;
 
 use ArrayAccess;
 use JsonSerializable;
