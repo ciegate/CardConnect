@@ -104,7 +104,7 @@ class Fluent implements ArrayAccess, JsonSerializable
      *
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): mixed
     {
         return $this->toArray();
     }
@@ -128,7 +128,7 @@ class Fluent implements ArrayAccess, JsonSerializable
      *
      * @return bool
      */
-    public function offsetExists($offset)
+    public function offsetExists(mixed $offset): bool
     {
         return isset($this->attributes[$offset]);
     }
@@ -140,7 +140,7 @@ class Fluent implements ArrayAccess, JsonSerializable
      *
      * @return mixed
      */
-    public function offsetGet($offset)
+    public function offsetGet(mixed $offset): mixed
     {
         return $this->get($offset);
     }
@@ -151,7 +151,7 @@ class Fluent implements ArrayAccess, JsonSerializable
      * @param string $offset
      * @param mixed  $value
      */
-    public function offsetSet($offset, $value)
+    public function offsetSet(mixed $offset, mixed $value): void
     {
         $this->attributes[$offset] = $value;
     }
@@ -161,7 +161,7 @@ class Fluent implements ArrayAccess, JsonSerializable
      *
      * @param string $offset
      */
-    public function offsetUnset($offset)
+    public function offsetUnset(mixed $offset): void
     {
         unset($this->attributes[$offset]);
     }
